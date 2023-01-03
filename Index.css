@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+html, body{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    background-color:#f0f0f0;
+}
+
+header{
+    width:100vw;
+    height:calc(4vh + 4vw);
+    background-color:#112233;
+}
+
+iframe{
+    width:99.5vw;
+    border:0px;
+}
