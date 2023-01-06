@@ -4,17 +4,28 @@ html, body{
     padding:0px;
     margin:0px;
     border:0px;
-    background-color:#f0f0f0;
+    background-color:#000000;
 }
 
 header{
     width:100vw;
     height:calc(4vh + 4vw);
     background-color:#112233;
+    filter:drop-shadow(0 0 10px #222222);
+}
+
+footer{
+    position:fixed;
+    bottom:0px;
+    width:100vw;
+    height:calc(2vh + 2vw);
+    background-color:#112233aa;
+    filter:drop-shadow(0 0 10px #222222);
 }
 
 iframe{
-    width:99.5vw;
+    height:calc(100vh - (4vh + 4vw) - 4px);
+    width:100vw;
     border:0px;
 }
 
@@ -23,4 +34,20 @@ iframe{
     text-decoration:none;
     display:inline-block;
     margin-left:20px;
+}
+
+.Space{
+    margin:20px;
+}
+
+.Logo{
+    font-family: Logo;
+    color:#11ffff;
+    filter:drop-shadow(0 0 10px #11ffff);
+    font-size:20px;
+}
+
+@font-face {
+    font-family: "Logo";
+    src: url("neon-future-2-font/NeonFuture20Demo-L3jp3.otf");
 }

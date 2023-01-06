@@ -4,5 +4,27 @@ html, body{
     padding:0px;
     margin:0px;
     border:0px;
-    background-color:#f0f0f0;
+    background-image:url("sky-urban-area-architecture-town-transport-vehicle-1534755-pxhere.com.jpg");
+    background-size:100vw;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+button{
+    color:#bb55aa;
+    border:0px;
+    font-family:"Call-Font";
+    font-size:60px;
+    background-color:transparent;
+}
+
+section{
+    background-color:#ffffff77;
+    width:100vw;
+    padding:30px;
+}
+
+@font-face{
+    font-family: "Call-Font";
+    src: url("70s-disco-font/70SdiscopersonaluseBold-w14z2.otf");
 }
