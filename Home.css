@@ -18,6 +18,11 @@ button{
     font-family:"Call-Font";
     font-size:60px;
     background-color:transparent;
+    transition:linear 0.5s;
+}
+
+button:hover{
+    filter:drop-shadow(0 0 10px #bb55aa);
 }
 
 section{
